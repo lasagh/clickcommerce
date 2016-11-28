@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:10
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:48
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/themes/default-bootstrap/modules/referralprogram/views/templates/hook/order-confirmation.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:128377875583c4f26c64d49-45957770%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:381057398583c5e1003ba44-07825402%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '128377875583c4f26c64d49-45957770',
+  'nocache_hash' => '381057398583c5e1003ba44-07825402',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f26c8b597_89119100',
+  'unifunc' => 'content_583c5e1006c4b4_07994391',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f26c8b597_89119100')) {function content_583c4f26c8b597_89119100($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_583c5e1006c4b4_07994391')) {function content_583c5e1006c4b4_07994391($_smarty_tpl) {?>
 
 <p class="success">
 	<?php echo smartyTranslate(array('s'=>'Thanks to your order, your sponsor %1$s %2$s will earn a voucher worth %3$d off when this order is confirmed.','sprintf'=>array($_smarty_tpl->tpl_vars['sponsor_firstname']->value,$_smarty_tpl->tpl_vars['sponsor_lastname']->value,$_smarty_tpl->tpl_vars['discount']->value),'mod'=>'referralprogram'),$_smarty_tpl);?>

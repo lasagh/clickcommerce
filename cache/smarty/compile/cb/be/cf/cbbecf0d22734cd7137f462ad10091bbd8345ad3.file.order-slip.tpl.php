@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:18
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:51
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/themes/default-bootstrap/order-slip.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2145682782583c4f2e1bef59-48619418%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:641542576583c5e134354e7-96451410%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2145682782583c4f2e1bef59-48619418',
+  'nocache_hash' => '641542576583c5e134354e7-96451410',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f2e29fbe4_84965464',
+  'unifunc' => 'content_583c5e134ecc61_65783214',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f2e29fbe4_84965464')) {function content_583c4f2e29fbe4_84965464($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/clickcommerce/vp1/tools/smarty/plugins/modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_583c5e134ecc61_65783214')) {function content_583c5e134ecc61_65783214($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/clickcommerce/vp1/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('my-account',true), ENT_QUOTES, 'UTF-8', true);?>
@@ -105,7 +105,7 @@ $_smarty_tpl->tpl_vars['slip']->_loop = true;
 						</td>
 						<td class="history_invoice">
 							<a class="link-button" href="<?php ob_start();?><?php echo intval($_smarty_tpl->tpl_vars['slip']->value['id_order_slip']);?>
-<?php $_tmp40=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('pdf-order-slip',true,null,"id_order_slip=".$_tmp40), ENT_QUOTES, 'UTF-8', true);?>
+<?php $_tmp57=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('pdf-order-slip',true,null,"id_order_slip=".$_tmp57), ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo smartyTranslate(array('s'=>'Credit slip'),$_smarty_tpl);?>
  <?php echo smartyTranslate(array('s'=>'#%s','sprintf'=>sprintf("%06d",$_smarty_tpl->tpl_vars['slip']->value['id_order_slip'])),$_smarty_tpl);?>
 ">

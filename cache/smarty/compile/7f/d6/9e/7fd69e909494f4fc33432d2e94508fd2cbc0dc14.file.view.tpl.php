@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:12
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:48
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/admin/themes/default/template/controllers/themes/helpers/view/view.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1873064477583c4f285b2c52-40752921%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1945116456583c5e10f12c18-82046554%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1873064477583c4f285b2c52-40752921',
+  'nocache_hash' => '1945116456583c5e10f12c18-82046554',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f28692538_97550614',
+  'unifunc' => 'content_583c5e11047a25_79375597',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f28692538_97550614')) {function content_583c4f28692538_97550614($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_583c5e11047a25_79375597')) {function content_583c5e11047a25_79375597($_smarty_tpl) {?>
 <div class="alert alert-success">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     <?php echo smartyTranslate(array('s'=>sprintf('The "%1$s" theme has been successfully installed.',$_smarty_tpl->tpl_vars['theme_name']->value)),$_smarty_tpl);?>

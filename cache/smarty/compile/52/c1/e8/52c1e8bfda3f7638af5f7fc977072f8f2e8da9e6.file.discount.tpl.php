@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:04
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:42
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/themes/default-bootstrap/discount.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1586721117583c4f207253a1-04523815%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2093975558583c5e0acc44c3-35997561%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1586721117583c4f207253a1-04523815',
+  'nocache_hash' => '2093975558583c5e0acc44c3-35997561',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f20849eb3_99576756',
+  'unifunc' => 'content_583c5e0adec7b9_76330215',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f20849eb3_99576756')) {function content_583c4f20849eb3_99576756($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/clickcommerce/vp1/tools/smarty/plugins/modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_583c5e0adec7b9_76330215')) {function content_583c5e0adec7b9_76330215($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/clickcommerce/vp1/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('my-account',true), ENT_QUOTES, 'UTF-8', true);?>
 "><?php echo smartyTranslate(array('s'=>'My account'),$_smarty_tpl);?>

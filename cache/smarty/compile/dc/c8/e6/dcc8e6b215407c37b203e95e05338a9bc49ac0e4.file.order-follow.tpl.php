@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:14
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:49
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/themes/default-bootstrap/order-follow.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10410781583c4f2a75aad8-15780057%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1161506991583c5e11ede7a6-86223241%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10410781583c4f2a75aad8-15780057',
+  'nocache_hash' => '1161506991583c5e11ede7a6-86223241',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f2a9d3060_07528124',
+  'unifunc' => 'content_583c5e120958a9_65070950',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f2a9d3060_07528124')) {function content_583c4f2a9d3060_07528124($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/clickcommerce/vp1/tools/smarty/plugins/modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_583c5e120958a9_65070950')) {function content_583c5e120958a9_65070950($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/clickcommerce/vp1/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?>
@@ -214,7 +214,7 @@ $_smarty_tpl->tpl_vars['return']->_loop = true;
 					<td class="history_invoice">
 						<?php if ($_smarty_tpl->tpl_vars['return']->value['state']==2) {?>
 							<a class="link-button" href="<?php ob_start();?><?php echo intval($_smarty_tpl->tpl_vars['return']->value['id_order_return']);?>
-<?php $_tmp37=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('pdf-order-return',true,null,"id_order_return=".$_tmp37), ENT_QUOTES, 'UTF-8', true);?>
+<?php $_tmp54=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('pdf-order-return',true,null,"id_order_return=".$_tmp54), ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo smartyTranslate(array('s'=>'Order return'),$_smarty_tpl);?>
  <?php echo smartyTranslate(array('s'=>'#'),$_smarty_tpl);?>
 <?php echo sprintf("%06d",$_smarty_tpl->tpl_vars['return']->value['id_order_return']);?>

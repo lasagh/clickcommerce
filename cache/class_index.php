@@ -85,13 +85,13 @@
   ),
   'Address' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Address.php',
     'type' => 'class',
     'override' => false,
   ),
   'AddressController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/front/AddressController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -157,7 +157,7 @@
   ),
   'AdminAddressesController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/admin/AdminAddressesController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -397,7 +397,7 @@
   ),
   'AdminCustomersController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/admin/AdminCustomersController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -709,7 +709,7 @@
   ),
   'AdminOrdersController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/admin/AdminOrdersController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1357,7 +1357,7 @@
   ),
   'AuthController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/front/AuthController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1957,7 +1957,7 @@
   ),
   'Customer' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Customer.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2293,7 +2293,7 @@
   ),
   'HTMLTemplateInvoice' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/HTMLTemplateInvoice.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2545,7 +2545,7 @@
   ),
   'IdentityController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/front/IdentityController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3013,7 +3013,7 @@
   ),
   'OrderOpcController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/front/OrderOpcController.php',
     'type' => 'class',
     'override' => false,
   ),

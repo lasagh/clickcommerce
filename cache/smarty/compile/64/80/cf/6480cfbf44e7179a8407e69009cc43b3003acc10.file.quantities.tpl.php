@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:10
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:47
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/admin/themes/default/template/controllers/products/quantities.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2052662140583c4f26085693-08514139%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1452219581583c5e0f3775b6-50736230%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2052662140583c4f26085693-08514139',
+  'nocache_hash' => '1452219581583c5e0f3775b6-50736230',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f264ef804_72460248',
+  'unifunc' => 'content_583c5e0f778b26_07466211',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f264ef804_72460248')) {function content_583c4f264ef804_72460248($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_583c5e0f778b26_07466211')) {function content_583c5e0f778b26_07466211($_smarty_tpl) {?>
 
 <?php if (isset($_smarty_tpl->tpl_vars['product']->value->id)) {?>
 	<div id="product-quantities" class="panel product-tab">

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:07
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:45
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/themes/default-bootstrap/modules/blocktags/blocktags.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:676971962583c4f23b58959-22131107%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1557354677583c5e0da22b45-18025015%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '676971962583c4f23b58959-22131107',
+  'nocache_hash' => '1557354677583c5e0da22b45-18025015',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f23bba177_71162955',
+  'unifunc' => 'content_583c5e0da74966_31407718',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f23bba177_71162955')) {function content_583c4f23bba177_71162955($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_583c5e0da74966_31407718')) {function content_583c5e0da74966_31407718($_smarty_tpl) {?>
 
 <!-- Block tags module -->
 <div id="tags_block_left" class="block tags_block">
@@ -53,7 +53,7 @@ $_smarty_tpl->tpl_vars['tag']->_loop = true;
 				class="<?php echo $_smarty_tpl->tpl_vars['tag']->value['class'];?>
  <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['myLoop']['last']) {?>last_item<?php } elseif ($_smarty_tpl->getVariable('smarty')->value['foreach']['myLoop']['first']) {?>first_item<?php } else { ?>item<?php }?>"
 				href="<?php ob_start();?><?php echo urlencode($_smarty_tpl->tpl_vars['tag']->value['name']);?>
-<?php $_tmp3=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('search',true,null,"tag=".$_tmp3), ENT_QUOTES, 'UTF-8', true);?>
+<?php $_tmp18=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('search',true,null,"tag=".$_tmp18), ENT_QUOTES, 'UTF-8', true);?>
 " 
 				title="<?php echo smartyTranslate(array('s'=>'More about','mod'=>'blocktags'),$_smarty_tpl);?>
  <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['tag']->value['name'], ENT_QUOTES, 'UTF-8', true);?>

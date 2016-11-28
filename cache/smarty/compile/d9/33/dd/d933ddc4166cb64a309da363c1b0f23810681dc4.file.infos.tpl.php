@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:09
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:46
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/themes/default-bootstrap/modules/cheque/views/templates/hook/infos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:999698946583c4f2561c714-69081661%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1393791577583c5e0e4b9495-44020066%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '999698946583c4f2561c714-69081661',
+  'nocache_hash' => '1393791577583c5e0e4b9495-44020066',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f2563c3b0_06854356',
+  'unifunc' => 'content_583c5e0e4c42b1_67123915',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f2563c3b0_06854356')) {function content_583c4f2563c3b0_06854356($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_583c5e0e4c42b1_67123915')) {function content_583c5e0e4c42b1_67123915($_smarty_tpl) {?>
 
 <div class="alert alert-info">
 <img src="../modules/cheque/cheque.jpg" style="float:left; margin-right:15px;" width="86" height="49">

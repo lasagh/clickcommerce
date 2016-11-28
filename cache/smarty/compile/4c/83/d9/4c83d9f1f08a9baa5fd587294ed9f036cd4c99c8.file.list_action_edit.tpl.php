@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:11
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:48
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/admin/themes/default/template/controllers/tax_rules/helpers/list/list_action_edit.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1248816505583c4f27bf0139-85255801%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:771051361583c5e10b27894-02692851%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1248816505583c4f27bf0139-85255801',
+  'nocache_hash' => '771051361583c5e10b27894-02692851',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f27bff120_26598754',
+  'unifunc' => 'content_583c5e10b33214_22099357',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f27bff120_26598754')) {function content_583c4f27bff120_26598754($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_583c5e10b33214_22099357')) {function content_583c5e10b33214_22099357($_smarty_tpl) {?>
 <a onclick="loadTaxRule('<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['id']->value, ENT_QUOTES, 'UTF-8', true);?>
 '); return false;" href="#" class="btn btn-default">
 	<i class="icon-pencil"></i> 

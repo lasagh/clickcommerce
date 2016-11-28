@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:03
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:42
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/admin/themes/default/template/controllers/cart_rules/conditions.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:387297307583c4f1f8a2535-45254521%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:340701910583c5e0a000ba8-96362349%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '387297307583c4f1f8a2535-45254521',
+  'nocache_hash' => '340701910583c5e0a000ba8-96362349',
   'function' => 
   array (
   ),
@@ -39,9 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f1fadd218_17389090',
+  'unifunc' => 'content_583c5e0a21f6e7_30477368',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f1fadd218_17389090')) {function content_583c4f1fadd218_17389090($_smarty_tpl) {?><div class="form-group">
+<?php if ($_valid && !is_callable('content_583c5e0a21f6e7_30477368')) {function content_583c5e0a21f6e7_30477368($_smarty_tpl) {?><div class="form-group">
 	<label class="control-label col-lg-3">
 		<span class="label-tooltip" data-toggle="tooltip"
 			title="<?php echo smartyTranslate(array('s'=>'Optional: The cart rule will be available to everyone if you leave this field blank.'),$_smarty_tpl);?>

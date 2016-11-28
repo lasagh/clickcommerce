@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:03
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:41
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/admin/themes/default/template/controllers/carrier_wizard/helpers/form/form_ranges.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2052106730583c4f1f5141c9-37594609%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:604082887583c5e09b07cd6-55836020%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2052106730583c4f1f5141c9-37594609',
+  'nocache_hash' => '604082887583c5e09b07cd6-55836020',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f1f644972_59008278',
+  'unifunc' => 'content_583c5e09c795c4_25352535',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f1f644972_59008278')) {function content_583c4f1f644972_59008278($_smarty_tpl) {?>		<script>var zones_nbr = <?php echo count($_smarty_tpl->tpl_vars['zones']->value)+3;?>
+<?php if ($_valid && !is_callable('content_583c5e09c795c4_25352535')) {function content_583c5e09c795c4_25352535($_smarty_tpl) {?>		<script>var zones_nbr = <?php echo count($_smarty_tpl->tpl_vars['zones']->value)+3;?>
  ; /*corresponds to the third input text (max, min and all)*/</script>
 		<div id="zone_ranges" style="overflow:auto">
 			<h4><?php echo smartyTranslate(array('s'=>'Ranges'),$_smarty_tpl);?>

@@ -37,7 +37,6 @@ function procCep(cep, modo, local) {
                         $('#address1').val($.trim(decodeURI(arRet.end)));
                         $('#address2').val($.trim(decodeURI(arRet.bairro)));
                         $('#city').val($.trim(decodeURI(arRet.cidade)));
-                        
                         procUF($.trim(decodeURI(arRet.uf)));
 
                         // Fecha fancybox
@@ -158,10 +157,6 @@ function procCep(cep, modo, local) {
 
             break;
     }
-    
-    $('.address-field').show();
-    $('#number').focus();
-    $('#postcode').val(cep);
 
     return true;
 }

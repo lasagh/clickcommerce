@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 16:37:09
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-28 17:40:46
          compiled from "/Applications/MAMP/htdocs/clickcommerce/vp1/themes/default-bootstrap/modules/crossselling/crossselling.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1222017915583c4f256ff0b9-19046373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2108926959583c5e0e53edb5-19856534%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1222017915583c4f256ff0b9-19046373',
+  'nocache_hash' => '2108926959583c5e0e53edb5-19856534',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583c4f257c76e2_45518527',
+  'unifunc' => 'content_583c5e0e5f0809_96695128',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_583c4f257c76e2_45518527')) {function content_583c4f257c76e2_45518527($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_583c5e0e5f0809_96695128')) {function content_583c5e0e5f0809_96695128($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['orderProducts']->value)&&count($_smarty_tpl->tpl_vars['orderProducts']->value)) {?>
 	<section id="crossselling" class="page-product-box">
 		<h3 class="productscategory_h2 page-product-heading">
